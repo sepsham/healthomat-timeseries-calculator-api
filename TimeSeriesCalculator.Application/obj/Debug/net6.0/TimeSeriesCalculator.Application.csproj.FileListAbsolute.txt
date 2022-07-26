@@ -1,0 +1,15 @@
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\bin\Debug\net6.0\TimeSeriesCalculator.Application.deps.json
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\bin\Debug\net6.0\TimeSeriesCalculator.Application.dll
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\bin\Debug\net6.0\TimeSeriesCalculator.Application.pdb
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.csproj.AssemblyReference.cache
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.AssemblyInfoInputs.cache
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.AssemblyInfo.cs
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.csproj.CoreCompileInputs.cache
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.dll
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\refint\TimeSeriesCalculator.Application.dll
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.pdb
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\ref\TimeSeriesCalculator.Application.dll
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\bin\Debug\net6.0\TimeSeriesCalculator.DataAccess.dll
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\bin\Debug\net6.0\TimeSeriesCalculator.DataAccess.pdb
+C:\Users\pro\Desktop\healthomat-timeseries-calculator\TimeSeriesCalculator.Application\obj\Debug\net6.0\TimeSeriesCalculator.Application.csproj.CopyComplete
