@@ -1,5 +1,6 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using TimeSeriesCalculator.Application.Exceptions;
 using TimeSeriesCalculator.Application.ModelDto.PatientChilds.Command;
 using TimeSeriesCalculator.Application.ModelDto.PatientChilds.Dtos;
 using TimeSeriesCalculator.Application.ModelDto.PatientChilds.Queries;
@@ -16,36 +17,76 @@ public class PatientChildController : BaseController
 
     [HttpGet]
     [Route("GetAll")]
-    public async Task<ActionResult<List<PatientChildDto>>> Get(CancellationToken cancellationToken = default)
+    public async Task<ActionResult<ApiResponse<List<PatientChildDto>>>> Get(CancellationToken cancellationToken = default)
     {
-        return await _mediator.Send(new GetAllPatientChildsQuery(), cancellationToken);
+        try
+        {
+            var result = await _mediator.Send(new GetAllPatientChildsQuery(), cancellationToken);
+            return ApiResponse<List<PatientChildDto>>.Success(result);
+        }
+        catch (CustomException ex)
+        {
+            throw new CustomException(ex.Message);
+        }
     }
 
     [HttpGet]
     [Route("GetById")]
-    public async Task<ActionResult<PatientChildDto>> Get(int id)
+    public async Task<ActionResult<ApiResponse<PatientChildDto>>> Get(int id)
     {
-        return await _mediator.Send(new GetPatientChildByIdQuery(id));
+        try
+        {
+            var result = await _mediator.Send(new GetPatientChildByIdQuery(id));
+            return ApiResponse<PatientChildDto>.Success(result);
+        }
+        catch (CustomException ex)
+        {
+            throw new CustomException(ex.Message);
+        }
     }
 
     [HttpPost]
     [Route("Add")]
-    public async Task<ActionResult<AddPatientChildResponse>> Add(string Name, bool Gender, DateTime BirthDay, int PatientId)
+    public async Task<ActionResult<ApiResponse<AddPatientChildResponse>>> Add(string Name, bool Gender, DateTime BirthDay, int PatientId)
     {
-        return await _mediator.Send(new AddPatientChildCommand(Name, Gender, BirthDay, PatientId));
+        try
+        {
+            var result = await _mediator.Send(new AddPatientChildCommand(Name, Gender, BirthDay, PatientId));
+            return ApiResponse<AddPatientChildResponse>.Success(result);
+        }
+        catch (CustomException ex)
+        {
+            throw new CustomException(ex.Message);
+        }
     }
 
     [HttpPut]
     [Route("Edit")]
-    public async Task<ActionResult<EditPatientChildResponse>> Edit(int Id, string Name, bool Gender, DateTime BirthDay, int PatientId)
+    public async Task<ActionResult<ApiResponse<EditPatientChildResponse>>> Edit(int Id, string Name, bool Gender, DateTime BirthDay, int PatientId)
     {
-        return await _mediator.Send(new EditPatientChildCommand(Id, Name, Gender, BirthDay, PatientId));
+        try
+        {
+            var result = await _mediator.Send(new EditPatientChildCommand(Id, Name, Gender, BirthDay, PatientId));
+            return ApiResponse<EditPatientChildResponse>.Success(result);
+        }
+        catch (CustomException ex)
+        {
+            throw new CustomException(ex.Message);
+        }
     }
 
     [HttpPost]
     [Route("Delete")]
-    public async Task<ActionResult<DeletePatientChildResponse>> Delete(int Id)
+    public async Task<ActionResult<ApiResponse<DeletePatientChildResponse>>> Delete(int Id)
     {
-        return await _mediator.Send(new DeletePatientChildCommand(Id));
+        try
+        {
+            var result = await _mediator.Send(new DeletePatientChildCommand(Id));
+            return ApiResponse<DeletePatientChildResponse>.Success(result);
+        }
+        catch (CustomException ex)
+        {
+            throw new CustomException(ex.Message);
+        }
     }
 }

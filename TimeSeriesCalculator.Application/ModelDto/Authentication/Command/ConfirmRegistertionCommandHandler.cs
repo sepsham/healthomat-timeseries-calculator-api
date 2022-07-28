@@ -28,6 +28,17 @@ public class ConfirmRegistertionCommandHandler : IRequestHandler<ConfirmRegister
 
         var response = await cognito.ConfirmSignUpAsync(confirmSignUp);
 
+        //var adminInitiateAuth = new AdminInitiateAuthRequest
+        //{
+        //    UserPoolId = AmazonEntryPoint.UserPoolId(),
+        //    ClientId = AmazonEntryPoint.ClientId(),
+        //    AuthFlow = AuthFlowType.ADMIN_USER_PASSWORD_AUTH
+        //};
+        //adminInitiateAuth.AuthParameters.Add("USERNAME", request.Username);
+        //adminInitiateAuth.AuthParameters.Add("PASSWORD", request.Password);
+
+        //var user = await cognito.AdminInitiateAuthAsync(adminInitiateAuth);
+
 
         return new ConfirmRegistertionResponse(response);
     }

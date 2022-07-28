@@ -29,7 +29,6 @@ public class LoginCommandHandler : IRequestHandler<LoginCommand, LoginRespone>
         adminInitiateAuth.AuthParameters.Add("PASSWORD", request.Password);
 
         var response = await cognito.AdminInitiateAuthAsync(adminInitiateAuth);
-
-        return new LoginRespone("access_token : " + response.AuthenticationResult.IdToken);
+        return new LoginRespone(response.AuthenticationResult.IdToken);
     }
 }
