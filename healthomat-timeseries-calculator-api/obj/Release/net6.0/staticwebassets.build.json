@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "F+kZg0ckYnLrC8Nmf6/qo1tMn/p2dHq5AkozX3+Zc1Y=",
+  "Source": "healthomat-timeseries-calculator-api",
+  "BasePath": "_content/healthomat-timeseries-calculator-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

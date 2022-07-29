@@ -1,0 +1,14 @@
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\bin\Release\net6.0\TimeSeriesCalculator.DataAccess.deps.json
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\bin\Release\net6.0\TimeSeriesCalculator.DataAccess.runtimeconfig.json
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\bin\Release\net6.0\TimeSeriesCalculator.DataAccess.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\bin\Release\net6.0\TimeSeriesCalculator.DataAccess.pdb
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.csproj.AssemblyReference.cache
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.AssemblyInfoInputs.cache
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.AssemblyInfo.cs
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\refint\TimeSeriesCalculator.DataAccess.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.pdb
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\TimeSeriesCalculator.DataAccess.genruntimeconfig.cache
+C:\Users\FRE4K##\Desktop\TimeCalc\TimeSeriesCalculator.DataAccess\obj\Release\net6.0\ref\TimeSeriesCalculator.DataAccess.dll

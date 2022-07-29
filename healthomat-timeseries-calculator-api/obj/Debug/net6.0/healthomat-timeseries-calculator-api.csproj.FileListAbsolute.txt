@@ -79,10 +79,12 @@ C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Ardalis.SmartEnum.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\AWSSDK.CognitoIdentityProvider.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\AWSSDK.Core.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\AWSSDK.Extensions.NETCore.Setup.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Humanizer.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\MediatR.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\MediatR.Contracts.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -98,6 +100,7 @@ C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.OpenApi.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -140,5 +143,6 @@ C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\obj\Debug
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\obj\Debug\net6.0\healthomat-timeseries-calculator-api.pdb
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\obj\Debug\net6.0\healthomat-timeseries-calculator-api.genruntimeconfig.cache
 C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\obj\Debug\net6.0\ref\healthomat-timeseries-calculator-api.dll
-C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\obj\Debug\net6.0\healthomat_timeseries_calculator_api.Properties.Resources.resources
+C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\obj\Debug\net6.0\healthomat-timeseries-calculator-api.csproj.GenerateResource.cache
+C:\Users\FRE4K##\Desktop\TimeCalc\healthomat-timeseries-calculator-api\bin\Debug\net6.0\AWSSDK.S3.dll

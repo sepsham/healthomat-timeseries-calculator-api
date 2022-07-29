@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "FNrBt3NZRRRpsP0I2XPTJ+ZASuXx81SspKF0Pmh4I83DdWGmTEQ9XjHN6l3dizWXFe0sIJ8T5/mG51EiO55iLA==",
+  "dgSpecHash": "hoosXunUemyYU7JjY8krsH+eBqQji0suf+bsv2Gmyl+8wKCzCAb/ft14+xy6mGQmW6PMAjNAaYB3/c+ECfR8GA==",
   "success": true,
   "projectFilePath": "C:\\Users\\FRE4K##\\Desktop\\TimeCalc\\healthomat-timeseries-calculator-api\\healthomat-timeseries-calculator-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FRE4K##\\.nuget\\packages\\ardalis.smartenum\\2.1.0\\ardalis.smartenum.2.1.0.nupkg.sha512",
     "C:\\Users\\FRE4K##\\.nuget\\packages\\awssdk.cognitoidentityprovider\\3.7.4.17\\awssdk.cognitoidentityprovider.3.7.4.17.nupkg.sha512",
-    "C:\\Users\\FRE4K##\\.nuget\\packages\\awssdk.core\\3.7.12.13\\awssdk.core.3.7.12.13.nupkg.sha512",
+    "C:\\Users\\FRE4K##\\.nuget\\packages\\awssdk.core\\3.7.12.15\\awssdk.core.3.7.12.15.nupkg.sha512",
+    "C:\\Users\\FRE4K##\\.nuget\\packages\\awssdk.extensions.netcore.setup\\3.7.2\\awssdk.extensions.netcore.setup.3.7.2.nupkg.sha512",
+    "C:\\Users\\FRE4K##\\.nuget\\packages\\awssdk.s3\\3.7.9.33\\awssdk.s3.3.7.9.33.nupkg.sha512",
     "C:\\Users\\FRE4K##\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\FRE4K##\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\FRE4K##\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
