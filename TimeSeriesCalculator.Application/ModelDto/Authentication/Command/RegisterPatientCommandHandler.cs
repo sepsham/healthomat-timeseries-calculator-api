@@ -4,6 +4,7 @@ using TimeSeriesCalculator.DataAccess.UnitOfWork;
 using MediatR;
 using Amazon.CognitoIdentityProvider.Model;
 using Amazon.CognitoIdentityProvider;
+using TimeSeriesCalculator.Application.Exceptions;
 
 namespace TimeSeriesCalculator.Application.ModelDto.Authentication.Command;
 
@@ -18,6 +19,8 @@ public class RegisterPatientCommandHandler : IRequestHandler<RegisterPatientComm
 
     public async Task<RegisterPatientResponse> Handle(RegisterPatientCommand request, CancellationToken cancellationToken)
     {
+        if (request.Password != request.confirmPassword)
+            throw new CustomException("password does not match");
 
         var cognito = new AmazonCognitoIdentityProviderClient(AmazonEntryPoint.Region());
 
@@ -39,7 +42,7 @@ public class RegisterPatientCommandHandler : IRequestHandler<RegisterPatientComm
 
         var res = await cognito.AdminAddUserToGroupAsync(new AdminAddUserToGroupRequest()
         {
-            GroupName = "Patient",
+            GroupName = "Doctor",
             Username = request.Username,
             UserPoolId = AmazonEntryPoint.UserPoolId(),
         });

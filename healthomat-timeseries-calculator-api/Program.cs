@@ -55,15 +55,6 @@ builder.Services.AddAuthentication("Bearer")
         options.Authority = $"https://cognito-idp.us-east-1.amazonaws.com/{AmazonEntryPoint.UserPoolId()}";
     });
 
-Environment.SetEnvironmentVariable("AWS_ACCESS_KEY_ID", "AKIAXR75C5K2X6HN5E5E");
-Environment.SetEnvironmentVariable("AWS_SECRET_ACCESS_KEY", "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");
-Environment.SetEnvironmentVariable("AWS_REGION", "us-east-1");
-
-var awsOptions = builder.Configuration.GetAWSOptions();
-awsOptions.Credentials = new Amazon.Runtime.EnvironmentVariablesAWSCredentials();
-builder.Services.AddDefaultAWSOptions(awsOptions);
-builder.Services.AddAWSService<IAmazonS3>();
-
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

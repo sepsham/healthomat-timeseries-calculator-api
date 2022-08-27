@@ -14,7 +14,7 @@ public class GetAllTimeSeriesQueryHandler : IRequestHandler<GetAllTimeSeriesQuer
 
     public async Task<List<TimeSeriesDto>> Handle(GetAllTimeSeriesQuery request, CancellationToken cancellationToken)
     {
-        var result = (await _unitOfWork.TimeSeriesRepository.GetAll())
+        var result = (await _unitOfWork.TimeSeriesRepository.GetAll()).Where(x => x.Gender == request.Gender && x.Type == request.Type)
                 .Select(x => new TimeSeriesDto(x))
                 .AsQueryable();
 

@@ -1,10 +1,5 @@
-﻿using TimeSeriesCalculator.Application.ModelDto.Patients.Dtos;
-using TimeSeriesCalculator.Application.ModelDto.Patients.Queries;
+﻿using MediatR;
 using TimeSeriesCalculator.DataAccess.UnitOfWork;
-using MediatR;
-using System.Linq;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
 
 namespace TimeSeriesCalculator.Application.ModelDto.Patients.Queries;
 

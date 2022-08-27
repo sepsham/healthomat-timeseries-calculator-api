@@ -1889,25 +1889,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\FRE4K##\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\pro\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FRE4K##\\Desktop\\TimeCalc\\TimeSeriesCalculator.DataAccess\\TimeSeriesCalculator.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\pro\\Desktop\\TimeCalc\\TimeSeriesCalculator.DataAccess\\TimeSeriesCalculator.DataAccess.csproj",
       "projectName": "TimeSeriesCalculator.DataAccess",
-      "projectPath": "C:\\Users\\FRE4K##\\Desktop\\TimeCalc\\TimeSeriesCalculator.DataAccess\\TimeSeriesCalculator.DataAccess.csproj",
-      "packagesPath": "C:\\Users\\FRE4K##\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FRE4K##\\Desktop\\TimeCalc\\TimeSeriesCalculator.DataAccess\\obj\\",
+      "projectPath": "C:\\Users\\pro\\Desktop\\TimeCalc\\TimeSeriesCalculator.DataAccess\\TimeSeriesCalculator.DataAccess.csproj",
+      "packagesPath": "C:\\Users\\pro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pro\\Desktop\\TimeCalc\\TimeSeriesCalculator.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\FRE4K##\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pro\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1974,7 +1972,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

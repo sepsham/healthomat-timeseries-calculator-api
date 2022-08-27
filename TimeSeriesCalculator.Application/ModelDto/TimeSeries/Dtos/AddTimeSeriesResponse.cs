@@ -1,5 +1,3 @@
-﻿
-
-namespace TimeSeriesCalculator.Application.ModelDto.TimeSeries.Dtos;
+﻿namespace TimeSeriesCalculator.Application.ModelDto.TimeSeries.Dtos;
 
 public record AddTimeSeriesResponse(int Id);

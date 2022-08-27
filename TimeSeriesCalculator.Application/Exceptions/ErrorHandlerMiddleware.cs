@@ -4,52 +4,51 @@ using System.Net;
 using System.Security.Authentication;
 using System.Text.Json;
 
-namespace TimeSeriesCalculator.Application.Exceptions
+namespace TimeSeriesCalculator.Application.Exceptions;
+
+public class ErrorHandlerMiddleware
 {
-    public class ErrorHandlerMiddleware
+    private readonly RequestDelegate _next;
+    public ErrorHandlerMiddleware(RequestDelegate next)
     {
-        private readonly RequestDelegate _next;
-        public ErrorHandlerMiddleware(RequestDelegate next)
+        _next = next;
+    }
+    public async Task Invoke(HttpContext context)
+    {
+        try
         {
-            _next = next;
+            await _next(context);
         }
-        public async Task Invoke(HttpContext context)
+        catch (Exception error)
         {
-            try
+            var response = context.Response;
+            response.ContentType = "application/json";
+            var responseModel = ApiResponse<string>.Fail(error.Message);
+            switch (error)
             {
-                await _next(context);
+                case CustomException e:
+                    // custom application error
+                    response.StatusCode = (int)StatusCode.BadRequest;
+                    break;
+                case KeyNotFoundException e:
+                    // not found error
+                    response.StatusCode = (int)StatusCode.NotFound;
+                    break;
+                case NotAuthorizedException e:
+                    // not found error
+                    response.StatusCode = (int)StatusCode.AuthenticationFailed;
+                    break;
+                case UnauthorizedException e:
+                    // not found error
+                    response.StatusCode = (int)StatusCode.UnAuthorized;
+                    break;
+                default:
+                    // unhandled error
+                    response.StatusCode = (int)StatusCode.ServerError;
+                    break;
             }
-            catch (Exception error)
-            {
-                var response = context.Response;
-                response.ContentType = "application/json";
-                var responseModel = ApiResponse<string>.Fail(error.Message);
-                switch (error)
-                {
-                    case CustomException e:
-                        // custom application error
-                        response.StatusCode = (int)StatusCode.BadRequest;
-                        break;
-                    case KeyNotFoundException e:
-                        // not found error
-                        response.StatusCode = (int)StatusCode.NotFound;
-                        break;
-                    case NotAuthorizedException e:
-                        // not found error
-                        response.StatusCode = (int)StatusCode.AuthenticationFailed;
-                        break;
-                    case UnauthorizedException e:
-                        // not found error
-                        response.StatusCode = (int)StatusCode.UnAuthorized;
-                        break;
-                    default:
-                        // unhandled error
-                        response.StatusCode = (int)StatusCode.ServerError;
-                        break;
-                }
-                var result = JsonSerializer.Serialize(responseModel);
-                await response.WriteAsync(result);
-            }
+            var result = JsonSerializer.Serialize(responseModel);
+            await response.WriteAsync(result);
         }
     }
 }

@@ -3,4 +3,4 @@ using MediatR;
 
 namespace TimeSeriesCalculator.Application.ModelDto.Authentication.Command;
 
-public record RegisterPatientCommand(string Username, string Password, string FirstName, string LastName, string Email) : IRequest<RegisterPatientResponse>;
+public record RegisterPatientCommand(string Username, string Password, string confirmPassword, string FirstName, string LastName, string Email) : IRequest<RegisterPatientResponse>;

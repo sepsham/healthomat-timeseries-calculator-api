@@ -15,7 +15,7 @@ public class GetAllZTimeSeriesQueryHandler : IRequestHandler<GetAllZTimeSeriesQu
 
     public async Task<List<ZTimeSeriesDto>> Handle(GetAllZTimeSeriesQuery request, CancellationToken cancellationToken)
     {
-        var result = (await _unitOfWork.ZTimeSeriesRepository.GetAll())
+        var result = (await _unitOfWork.ZTimeSeriesRepository.GetAll()).Where(x => x.Gender == request.Gender && x.Type == request.Type)
                 .Select(x => new ZTimeSeriesDto(x))
                 .AsQueryable();
 
